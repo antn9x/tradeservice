@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Babel</title>
+    <style>
+    body, html { margin:0; padding: 0; overflow:hidden; font-family:Arial; font-size:20px; background-color: #000 }
+    #stage { border:2px solid black; margin:5px auto; color:white; }
+    </style>
+    </head>
+
+    <!--
+    -->
+    <script src="./phaser.min.js"></script>
+    <script src="./browser.js"></script>
+    <script type="text/babel" src="./babel.js"></script>
+    <script src="./game.js"     ></script>
+    <script type="text/babel">
+        class Test {
+          test() {
+            return "test";
+          }
+        }
+
+        var test = new Test;
+        console.log(test.test()); // "test"
+    </script>
+    <body>
+        <center>
+            <div id="viewport"></div>
+        </center>
+    </body>
+
+</html>
