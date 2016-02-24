@@ -1,0 +1,24 @@
+{
+  "name": "tradeservice",
+  "version": "1.0.0",
+  "description": "node js v5",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "trade",
+    "node",
+    "v5",
+    "es6",
+    "online"
+  ],
+  "author": "antn9x",
+  "engines": {
+    "node": "5.7.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest"
+  }
+}
